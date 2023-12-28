@@ -1,7 +1,6 @@
 from fastapi import FastAPI, Depends
 from autoretriever import QueryRetriever
 from typing import Callable
-import uvicorn
 
 app = FastAPI()
 
